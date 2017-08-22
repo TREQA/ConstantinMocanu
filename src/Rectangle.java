@@ -1,11 +1,9 @@
-public class Rectangle extends Calc
+public class Rectangle extends Shape
 {
     public double a;
     public double b;
-    Rectangle (double side_a, double side_b)
+    public double area()
     {
-        this.a = side_a;
-        this.b = side_b;
+        return a*b;
     }
-
 }

@@ -1,8 +1,10 @@
-public class Circle extends Calc
+public class Circle extends Shape
 {
-     public double radius;
-    Circle (double constructor_radius)
+    public final double PI = 3.14;
+    public double r;
+    public double area()
     {
-        this.radius = constructor_radius;
+        return r * r * PI;
     }
 }
+
